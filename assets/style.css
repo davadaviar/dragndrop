@@ -6,3 +6,12 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #34BE82;
+    color: white;
+}
