@@ -6,6 +6,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body {
+    background-color: #e5e5e5;
+}
+
 .text-center {
     text-align: center;
 }
@@ -14,4 +18,51 @@ header {
     padding: 20px;
     background-color: #34BE82;
     color: white;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 300px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-item {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.box-filled {
+    background-image: url('http://source.unsplash.com/random/200x200');
+    position: relative;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .wrapper {
+        width: 360px;
+        height: 100px;
+        margin: 65% auto;
+    }
+    
+    .box-item {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+    }
+
+    .box-filled {
+        position: static;
+        height: 80px;
+        width: 80px;
+    }
 }
