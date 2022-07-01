@@ -38,7 +38,7 @@ header {
     overflow: hidden;
 }
 
-.box-filled {
+.filled {
     background-image: url('http://source.unsplash.com/random/200x200');
     position: relative;
     height: 200px;
