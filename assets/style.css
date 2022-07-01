@@ -31,8 +31,8 @@ header {
 }
 
 .box-item {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
@@ -46,5 +46,6 @@ header {
     top: 5px;
     left: 5px;
     cursor: pointer;
+    border-radius: 9px;
 }
 
