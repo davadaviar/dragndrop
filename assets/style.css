@@ -49,3 +49,15 @@ header {
     border-radius: 9px;
 }
 
+.hold {
+    border: 2px solid #34BE82 ;
+}
+
+.hovered {
+    background-color: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
