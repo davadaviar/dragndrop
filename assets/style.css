@@ -18,6 +18,7 @@ header {
     padding: 20px;
     background-color: #34BE82;
     color: white;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper {
@@ -42,27 +43,8 @@ header {
     position: relative;
     height: 200px;
     width: 200px;
+    top: 5px;
+    left: 5px;
     cursor: pointer;
 }
 
-
-@media screen and (max-width: 576px) {
-
-    .wrapper {
-        width: 360px;
-        height: 100px;
-        margin: 65% auto;
-    }
-    
-    .box-item {
-        width: 80px;
-        height: 80px;
-        border-radius: 8px;
-    }
-
-    .box-filled {
-        position: static;
-        height: 80px;
-        width: 80px;
-    }
-}
