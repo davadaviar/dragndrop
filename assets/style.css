@@ -55,7 +55,7 @@ header {
 
 .hovered {
     background-color: #f4f4f4;
-    border-style: dashed;
+    border: dashed #34BE82;
 }
 
 .invisible {
